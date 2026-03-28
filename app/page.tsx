@@ -1,13 +1,13 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import { ethers } from 'ethers';
+
 declare global {
   interface window {
     ethereum: any;
   }
 }
-
-'use client';
-
-import { useState, useEffect } from 'react';
-import { ethers } from 'ethers';
 
 const REGISTRY_ADDRESS = '0xEE66574d63535a344A0b044734fC2Ec0Be2a933d';
 const SCORE_ADDRESS = '0x855dA715F3182f9A105343c91F80ba1B435BfD31';
